@@ -1,0 +1,30 @@
+
+/* Fontes */
+$font-family: 'proxima-nova';
+
+/* Cores */
+$color-limegreen: hsl(163, 72%, 41%);
+$color-brightred: hsl(356, 69%, 56%);
+$color-white: #fff;
+$color-black: #000;
+$color-facebook: hsl(195, 100%, 50%);
+$color-twitter: hsl(203, 89%, 53%);
+$color-instagram: linear-gradient(hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+$color-youtube: hsl(348, 97%, 39%);
+
+// Breakpoints
+$desktop-width: 1440px;
+$mobile-width: 375px;
+
+// Media queries
+@mixin desktop {
+    @media (min-width: $desktop-width) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (min-width: $mobile-width) {
+        @content;
+    }
+}
