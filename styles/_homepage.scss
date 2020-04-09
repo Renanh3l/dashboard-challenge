@@ -56,3 +56,72 @@ body.main-page {
         max-width: 786px;
     }
 }
+
+main {
+    margin-top: 30px;
+
+    section.followers {
+
+        .card-facebook {
+            border-top: 2px solid $color-facebook;
+        }
+
+        .card {
+            position: relative;
+            width: 300px;
+            height: 250px;
+            background-color: $color-card-light;
+
+            &__header {
+                margin: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    margin-left: 8px;
+                    font-size: 14px;
+                }
+            }
+
+            &__content {
+                margin-top: 35px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                &__followers {
+                    font-size: 64px;
+                    font-weight: 700;
+                    color: $color-dark-blue;
+                }
+
+                &__description {
+                    margin-top: 8px;
+                    text-transform: uppercase;
+                    letter-spacing: 6px;
+                    color: $color-dark-blue;
+                }
+            }
+
+            &__footer {
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translateX(-50%);
+                color: $color-limegreen;
+                text-transform: capitalize;
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+                font-size: 14px;
+
+                span {
+                    margin-left: 5px;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+}

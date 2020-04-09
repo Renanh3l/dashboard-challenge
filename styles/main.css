@@ -148,4 +148,61 @@ body.main-page.dark-theme * {
   }
 }
 
+main {
+  margin-top: 30px;
+}
+main section.followers .card-facebook {
+  border-top: 2px solid deepskyblue;
+}
+main section.followers .card {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background-color: #f0f2fa;
+}
+main section.followers .card__header {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.followers .card__header span {
+  margin-left: 8px;
+  font-size: 14px;
+}
+main section.followers .card__content {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main section.followers .card__content__followers {
+  font-size: 64px;
+  font-weight: 700;
+  color: #1e202a;
+}
+main section.followers .card__content__description {
+  margin-top: 8px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #1e202a;
+}
+main section.followers .card__footer {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #1db489;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+main section.followers .card__footer span {
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
 /*# sourceMappingURL=main.css.map */
