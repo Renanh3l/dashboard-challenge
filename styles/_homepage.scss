@@ -63,7 +63,9 @@ main {
     section.followers {
 
         .card-facebook {
-            border-top: 2px solid $color-facebook;
+            border-top: 3px solid $color-facebook;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
         }
 
         .card {

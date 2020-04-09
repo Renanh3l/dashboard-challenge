@@ -152,7 +152,9 @@ main {
   margin-top: 30px;
 }
 main section.followers .card-facebook {
-  border-top: 2px solid deepskyblue;
+  border-top: 3px solid deepskyblue;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 main section.followers .card {
   position: relative;
